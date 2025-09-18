@@ -31,20 +31,24 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        // to be completed
+        if age>(16) print("can drive")
+        if age< 16 print ("can't drive")
     }
 
     /*
      * Returns the net pay for the outstanding unpaid hours
      */
     private double calculatePay(){
-        // to be completed
+        unpaidHours x hourlyWages-30%();
     }
 
     /*
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        // to be completed
+        paySalary = CalculatePay;
+        Print.ln = ("fullname) has recieved a wire transfer of (paySalary)"
     }
+    
+    
 }
